@@ -29,13 +29,4 @@ li { margin-bottom: 0.35rem; }
   header, footer, main { padding-left: 1.25rem; padding-right: 1.25rem; }
   .hero-title { font-size: 1.8rem; }
 }
-.logo-img {
-  height: 40px;
-  max-width: 100%;
-  vertical-align: middle;
-}
-.logo-text {
-  font-weight: 600;
-  font-size: 0.9rem;
-  margin-left: 0.5rem;
-}
+
