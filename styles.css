@@ -29,3 +29,8 @@ li { margin-bottom: 0.35rem; }
   header, footer, main { padding-left: 1.25rem; padding-right: 1.25rem; }
   .hero-title { font-size: 1.8rem; }
 }
+.logo-img {
+  height: 48px;
+  max-width: 100%;
+  vertical-align: middle;
+}
