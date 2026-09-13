@@ -1,17 +1,19 @@
 body { margin: 0; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #111; background-color: #f7f7f7; }
 
-header { background-color: #111827; color: #f9fafb; padding: 1.1rem 10vw; display: flex; align-items: center; justify-content: space-between; gap: 2rem; }
-footer { background-color: #111827; color: #f9fafb; padding: 1rem 10vw; }
+header { background-color: #111827; color: #f9fafb; padding: 1.25rem 10vw; display: flex; align-items: center; justify-content: space-between; gap: 2rem; }
+footer { background-color: #111827; color: #f9fafb; padding: 1rem 10vw; font-size: 0.8rem; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.75rem; align-items: center; }
 
-header > a { display: flex; align-items: center; flex-shrink: 0; }
-.site-logo { height: 64px; width: auto; display: block; }
+.logo-link { display: flex; flex-direction: column; line-height: 1; text-decoration: none; flex-shrink: 0; gap: 3px; }
+.logo-mh { font-size: 2.8rem; font-weight: 900; color: #ffffff; letter-spacing: 0.14em; line-height: 1; }
+.logo-name { font-size: 0.72rem; font-weight: 600; color: #ffffff; letter-spacing: 0.38em; text-transform: uppercase; }
 
-header nav { display: flex; align-items: center; gap: 0; flex-wrap: wrap; }
-header nav a { color: #e5e7eb; text-decoration: none; margin-left: 1.75rem; font-size: 0.9rem; white-space: nowrap; }
-header nav a:hover { text-decoration: underline; }
+header nav { display: flex; align-items: center; flex-wrap: wrap; }
+header nav a { color: #d1d5db; text-decoration: none; margin-left: 1.75rem; font-size: 0.9rem; white-space: nowrap; }
+header nav a:hover { color: #ffffff; }
 
-footer a { color: #e5e7eb; text-decoration: none; margin-right: 1.5rem; font-size: 0.95rem; }
+footer a { color: #e5e7eb; text-decoration: none; margin-right: 1rem; }
 footer a:hover { text-decoration: underline; }
+footer nav a { margin-right: 1rem; }
 
 main { padding: 3rem 10vw; max-width: 960px; margin: 0 auto; }
 .hero-title { font-size: 2.2rem; margin-bottom: 0.5rem; }
@@ -31,16 +33,14 @@ main { padding: 3rem 10vw; max-width: 960px; margin: 0 auto; }
 .btn-secondary { background-color: transparent; color: #111827; border: 1px solid #d1d5db; }
 .btn-primary:hover { background-color: #020617; }
 .btn-secondary:hover { background-color: #e5e7eb; }
-footer { font-size: 0.8rem; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.75rem; align-items: center; }
-footer nav a { margin-right: 1rem; }
 ul { color: #4b5563; line-height: 1.6; }
 li { margin-bottom: 0.35rem; }
 
 @media (max-width: 640px) {
-  header { padding-left: 1.25rem; padding-right: 1.25rem; flex-wrap: wrap; gap: 0.75rem; }
-  header nav { gap: 0; }
+  header { padding: 1rem 1.25rem; gap: 1rem; flex-wrap: wrap; }
   header nav a { margin-left: 1rem; font-size: 0.82rem; }
   footer, main { padding-left: 1.25rem; padding-right: 1.25rem; }
   .hero-title { font-size: 1.8rem; }
-  .site-logo { height: 58px; }
+  .logo-mh { font-size: 2rem; }
+  .logo-name { font-size: 0.62rem; }
 }
