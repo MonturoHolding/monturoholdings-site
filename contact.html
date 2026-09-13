@@ -1,62 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contact | Monturo Holding LLC</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Contact Monturo Holdings LLC for governance, family enterprise, or portfolio-related matters.">
-  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="Contact Monturo Holding LLC — executive office inquiries, notary services, and general correspondence." />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+
   <header>
-    <div style="display:flex; align-items:center; justify-content:space-between; gap:1.5rem;">
-      <div class="logo">Monturo Holding LLC</div>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="services.html">Services</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </div>
+    <nav>
+      <div class="logo"><a href="index.html">Monturo Holding LLC</a></div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
   </header>
 
   <main>
-    <section class="section">
+
+    <section class="page-hero">
       <h1>Contact</h1>
-      <p>
-        Monturo Holding LLC operates as a private family holding company. We maintain a deliberate boundary
-        between public presence and private governance. For appropriate matters, you may contact us using the
-        channels below.
-      </p>
+      <p class="subtitle">For enterprise inquiries, notary services, or general correspondence.</p>
     </section>
 
-    <section class="section">
-      <h2>Business contact</h2>
-      <p>
-        <strong>Email:</strong> info@monturoholding.com<br>
-        <strong>Mailing address:</strong><br>
-        Monturo Holding LLC<br>
-        332 S Michigan Avenue, Suite 121 #5286<br>
-        Chicago, IL 60604
-      </p>
-      <p class="muted">
-        Please do not send time-sensitive materials or original documents without prior coordination.
-      </p>
+    <section class="content-section contact-layout">
+
+      <!-- CONTACT INFO -->
+      <div class="contact-info">
+
+        <div class="contact-card">
+          <h2>Executive Office</h2>
+          <p><strong>Monturo Holding LLC</strong></p>
+          <ul class="contact-list">
+            <li>
+              <span class="contact-label">Email</span>
+              <a href="mailto:executiveoffice@monturoholding.com">executiveoffice@monturoholding.com</a>
+            </li>
+            <li>
+              <span class="contact-label">Phone</span>
+              <a href="tel:+13129094626">312-909-4626</a>
+            </li>
+            <li>
+              <span class="contact-label">Mailing Address</span>
+              <span>332 S Michigan Ave · Suite 121 #5286 · Chicago, IL 60604</span>
+            </li>
+            <li>
+              <span class="contact-label">Response Time</span>
+              <span>Within 2 business days</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contact-card">
+          <h2>Notary &amp; Signing Services</h2>
+          <p>For scheduling mobile notary, RON, or loan signing appointments, please visit our dedicated notary site.</p>
+          <a href="https://monturo-notary-signing-services.com" target="_blank" rel="noopener" class="btn btn-primary">Book a Notary Appointment →</a>
+          <p class="service-area">Service Area: St. Clair County &amp; Metro East Illinois</p>
+        </div>
+
+      </div>
+
+      <!-- NOTE -->
+      <div class="contact-note">
+        <p><strong>Please note:</strong> Monturo Holding LLC is a private family holding company and does not offer public investment, partnership, or joint venture solicitations. All inquiries are reviewed and responded to at our discretion.</p>
+      </div>
+
     </section>
+
   </main>
 
   <footer>
-    <div>© <span id="year"></span> Monturo Holding LLC. All rights reserved.</div>
-    <nav>
-      <a href="privacy.html">Privacy</a>
-      <a href="terms.html">Terms</a>
-      <a href="contact.html">Contact</a>
-    </nav>
+    <p>&copy; 2026 Monturo Holding LLC. All rights reserved.</p>
+    <ul>
+      <li><a href="privacy.html">Privacy</a></li>
+      <li><a href="terms.html">Terms</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
   </footer>
 
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
 </body>
 </html>
