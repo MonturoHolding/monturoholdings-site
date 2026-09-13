@@ -4,7 +4,7 @@ header { background-color: #111827; color: #f9fafb; padding: 0.85rem 10vw; displ
 footer { background-color: #111827; color: #f9fafb; padding: 1rem 10vw; }
 
 header > a { display: flex; align-items: center; flex-shrink: 0; }
-.site-logo { height: 42px; width: auto; display: block; }
+.site-logo { height: 48px; width: auto; display: block; }
 
 header nav { display: flex; align-items: center; gap: 0; flex-wrap: wrap; }
 header nav a { color: #e5e7eb; text-decoration: none; margin-left: 1.75rem; font-size: 0.9rem; white-space: nowrap; }
